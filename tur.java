@@ -4,7 +4,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-// PROVERKA
+
 /**
  *1
  * @author Вредная_Мышь
@@ -14,8 +14,8 @@ public class tur {
           public static void main (String [] args) throws java.io.IOException{
             
             System.out.print("Введите количество человек: "); /* ввод*/
-            Scanner sc = new Scanner(System.in); /* считывает количество человек*/
-            int kolich = sc.nextInt();           /* запоминает количество человек*/ 
+            Scanner sc = new Scanner(System.in); /* считывает кол-во человек/
+            int kolich = sc.nextInt();           /* записывает кол-во человек*/ 
             
                                                     
             System.out.print("Выбор отеля (количество звезд от 3 до 5): ");/* ввод*//* считывает количество звезд*/
